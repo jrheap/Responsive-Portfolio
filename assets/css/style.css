@@ -267,12 +267,26 @@ input[type=text] {
 }
 
 @media screen and (max-width: 980px) {
+    section.wrapper {
+        margin-left: 20px; width: 100%; }
+    .container{
+        max-width: 100%; padding-right: 50px;
+    }
     
     
 }
 
 @media screen and (max-width: 768px){
+    section.wrapper {
+        margin-left: 20px; max-width: 710px;
+
+    }
 
 }
 
-@media screen and (max-width: 640px)
+@media screen and (max-width: 640px) {
+    section.wrapper {
+        margin-left: 20px; max-width: 575px;
+
+    }
+}
