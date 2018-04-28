@@ -129,11 +129,12 @@ h1:hover {
     font-size: 15px;
     border-top: solid 5px #4aaaa5;
     margin-top: 50px;
+}
 
-
-
-    
-
+#name {
+    width: 930px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 nav {
@@ -221,6 +222,7 @@ h6:hover{
 #name ul {
     margin-bottom: 20pxl;
     border: none;
+    max-width: 100%;
 
 }
 
@@ -235,6 +237,7 @@ input[type=email],
 textarea {
     display: block;
     margin: 20px;
+    max-width: 100%;
 }
 
 label,
@@ -263,30 +266,54 @@ input[type=submit] {
 
 input[type=text] {
     width: 920px;
+    max-width: 100%;
 
 }
-
+/* Media quieries */
 @media screen and (max-width: 980px) {
     section.wrapper {
-        margin-left: 20px; width: 100%; }
+        margin-left: 10px   ; width: 100%; }
     .container{
         max-width: 100%; padding-right: 50px;
     }
+    input[type=text] {
+        width: 920px;
+        max-width: 100%;
+    }
     
-    
+    #name {
+        width:970px;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+    }
+    #email {
+        max-width: 830px;
+    }
+    #message{
+        max-width: 830px;
+    }
 }
 
 @media screen and (max-width: 768px){
     section.wrapper {
-        margin-left: 20px; max-width: 710px;
-
+        margin-left: 10px; max-width: 710px;
+    }
+    input[type=text] {
+        width: 728px;
+        max-width: 100%;
     }
 
 }
 
 @media screen and (max-width: 640px) {
     section.wrapper {
-        margin-left: 20px; max-width: 575px;
-
+        margin-left: 10px; max-width: 575px;
+    }
+    input[type=text] {
+        width: 600px;
+        max-width: 100%;
+    }
+    section.portfolio {
+        height: 1385px;
     }
 }
