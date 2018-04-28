@@ -240,6 +240,21 @@ textarea {
     max-width: 100%;
 }
 
+
+ul {
+    width: 94%;
+    
+    
+}
+
+
+.form{
+    width: 100%;
+    padding-right: 0px;
+}
+
+
+
 label,
 input[type=text]
 input[type=text]
@@ -276,22 +291,7 @@ input[type=text] {
     .container{
         max-width: 100%; padding-right: 50px;
     }
-    input[type=text] {
-        width: 920px;
-        max-width: 100%;
-    }
-    
-    #name {
-        width:970px;
-    /* margin-left: 20px; */
-    /* margin-right: 20px; */
-    }
-    #email {
-        max-width: 830px;
-    }
-    #message{
-        max-width: 830px;
-    }
+    /*  */
 }
 
 @media screen and (max-width: 768px){
